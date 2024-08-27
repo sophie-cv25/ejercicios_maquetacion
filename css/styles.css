@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.ej1{
+    border: 1px solid black;
+    height: 100vh;
+    padding: 60px;
+    background-color: rgb(225, 212, 237);
+
+}
+.ej1 .card1{
+    width: 400px;
+    color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+.ej1.card1 img{}
+.ej1.card1.datos_carga{}
+.ej1.card1.lista_archivos{}
+.ej1.card1. button{}
