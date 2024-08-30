@@ -7,18 +7,64 @@ body{
     font-family: sans-serif;
 }
 .ej1{
-    border: 1px solid black;
+    border: 3px solid black;
     height: 100vh;
     padding: 60px;
-    background-color: rgb(225, 212, 237);
-
 }
 .ej1 .card1{
-    width: 400px;
-    color: white;
+    width: 410px;
+    height: 730px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
     border-radius: 30px;
     margin: 0 auto;
-    border: 1px solid white;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 40px;
+    img{
+        width: 330px;
+        height: 319px;
+        border-radius: 30px;
+        
+    }
+    .datos_carga{
+        margin-bottom: 23px;
+        .carga{
+            font-size: 60px;
+            font-weight:bolder;
+            color:#6D25B9;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .gigas{
+            font-size: 18px;
+            color: grey;
+            text-align: center;
+        }
+        
+    }
+    .lista_archivos{
+        font-size: 22px;
+        color: black;
+        list-style: none;
+        text-align: center;
+        li{
+            margin-bottom: 3px;
+        }
+    }
+    button{
+        
+        height: 53px;
+        width: 131px;
+        border-radius: 20px;
+        color:  white;
+        background-color: #6D25B9;
+        font-weight: bolder;
+        font-size: 18px;
+        float: inline-end;
+    }
+    
+
 }
 .ej1.card1 img{}
 .ej1.card1.datos_carga{}
