@@ -7,7 +7,6 @@ body{
     font-family: sans-serif;
 }
 .ej1{
-    border: 3px solid black;
     height: 100vh;
     padding: 60px;
 }
@@ -48,12 +47,13 @@ body{
         color: black;
         list-style: none;
         text-align: center;
+        margin-bottom: 40px;
         li{
             margin-bottom: 3px;
         }
+
     }
     button{
-        
         height: 53px;
         width: 131px;
         border-radius: 20px;
@@ -61,12 +61,162 @@ body{
         background-color: #6D25B9;
         font-weight: bolder;
         font-size: 18px;
-        float: inline-end;
+        margin-left:30%;
+        border: 0px;
+        
     }
     
 
 }
-.ej1.card1 img{}
-.ej1.card1.datos_carga{}
-.ej1.card1.lista_archivos{}
-.ej1.card1. button{}
+.ej2 .card2{
+    width: 609px;
+    height: 1048px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 1px solid black;
+    
+    .imagen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 449px;
+        height:412px;
+        margin-bottom: 50px;
+        img{
+            width: 317px;
+            height:344px;
+            
+        }  
+        
+    } 
+    .info{
+        margin-bottom: 50px;
+        padding-bottom: 53px;
+        h2{
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 17px;
+        }
+        p{
+            font-size: 22px;
+            font-weight: lighter;
+            color:rgba(162, 169, 173, 1);
+            text-align: justify;
+            margin-bottom: 17px;
+        }
+    }
+    
+    .b2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            width: 362px;
+            height: 80px;
+            border-radius: 43px;
+            color: white;
+            background-color: rgba(242, 177, 74, 1);
+            font-size: 28px;
+            font-weight: bold;
+            border: 0px;
+        }
+    }
+}
+.ej3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 488px;
+        height: 526px;
+        background-color: rgba(164, 71, 110, 1);
+        .card3{
+            width: 408px;
+            height: 470px;
+            margin: auto;
+            background-color: white;
+            .imagen{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+                img{
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+            .info{
+                h2{
+                    font-size:20px ;
+                    color: rgb(83, 83, 83);
+                    text-align: center;
+                    font-weight: lighter;
+                    margin-bottom: 5px;
+                }
+                p{
+                    margin: auto;
+                    width: 330px;
+                    color: rgb(156, 156, 156);
+                    text-align: center;
+                    font-weight: lighter;
+                    margin-bottom: 55px;
+
+                }
+            } 
+            .b2{
+                
+                button{
+                    background-color: rgba(238, 104, 161, 1);
+                    color: white;
+                    width: 408px;
+                    height: 55px;
+                    border: 0px;
+                    font-size: 22px;
+
+
+                
+                }
+            }
+
+        }
+    }
+}
+.ej4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    .card4{
+        width: 1858px;
+        height: 1160px;
+        border: 32px solid black;
+        .arb{
+            height: 548px;
+            width: 1794px;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        .abajo{
+            display: inline;
+            height: 548px;
+            width: 1794px;
+            img{
+                width: 548px;
+                float: left;
+            }
+            h1{
+                font-size: 450px;
+                float: right;
+            }
+            
+        }
+    }
+}
+
+
+
