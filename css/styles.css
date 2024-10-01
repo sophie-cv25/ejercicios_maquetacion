@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(155, 181, 181);
 }
 
 .ej1 {
@@ -380,12 +381,12 @@ body {
     padding-right: 10px;
 }
 /*------------------------------------------------------ej5-------------------------------*/
-.ejercicio5 {
+.ej5 {
     height: 100%;
     padding: 30px;
 }
 
-.ejercicio5 .card5 {
+.ej5 .card5 {
     width: 581px;
     height: auto;
     padding: 25px;
@@ -396,14 +397,14 @@ body {
     border: 2px solid #000;
 }
 
-.ejercicio5 header{
+.e5 header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
     padding-bottom: 50px;
 }
-.ejercicio5 header button{
+.ej5 header button{
     font-size: 15px;
     text-decoration: none;
     border: 2px solid #000;
@@ -411,29 +412,29 @@ body {
     font-weight: bold;
     padding: 10px;
 }
-.ejercicio5 header .perfil{
+.ej5 header .perfil{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ejercicio5 header .perfil h2{
+.ej5 header .perfil h2{
     font-size: 15px;
     padding-right: 10px;
     font-weight: lighter;
 }
-.ejercicio5 .contenido_card5{
+.ej5 .contenido_card5{
     padding: 20px 0;
 }
-.ejercicio5 .contenido_card5 h1 {
+.ej5 .contenido_card5 h1 {
     font-size: 45px;
     padding-bottom: 15px;
 }
-.ejercicio5 .contenido_card5 h2 {
+.ej5 .contenido_card5 h2 {
     font-size: 18px;
     padding-bottom: 100px;
     font-weight: lighter;
 }
-.ejercicio5 .contenido_card5 h3 {
+.ej5 .contenido_card5 h3 {
     font-size: 32px;
     padding-bottom: 20px;
 }
@@ -451,7 +452,7 @@ body {
 .board h2{
     font-weight: lighter;
 }
-.newboard{
+.new{
     margin-right: 100px;
 }
 .inferior{
