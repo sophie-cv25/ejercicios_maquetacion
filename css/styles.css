@@ -1,222 +1,473 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-.ej1{
+
+.ej1 {
+    height: 100vh;
+    padding: 42px;
+}
+
+.ej1 .card1 {
+    width: 287px;
+    height: 511px;
+    border-radius: 21px;
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.ej1 .card1 img {
+    width: 231px;
+    height: 223px;
+    border-radius: 21px;
+}
+
+.ej1 .card1 .datos_carga {
+    margin-bottom: 16px;
+    text-align: center; 
+}
+
+.ej1 .card1 .datos_carga .carga {
+    font-size: 42px;
+    font-weight: bolder;
+    color: #6D25B9;
+    margin-bottom: 6px;
+}
+
+.ej1 .card1 .datos_carga .gigas {
+    font-size: 13px;
+    color: grey;
+}
+
+.ej1 .card1 .lista_archivos {
+    font-size: 15px;
+    color: black;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.ej1 .card1 .lista_archivos li {
+    margin-bottom: 2px;
+}
+
+.ej1 .card1 button {
+    height: 37px;
+    width: 92px;
+    border-radius: 14px;
+    color: white;
+    background-color: #6D25B9;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.ej1 {
     height: 100vh;
     padding: 60px;
 }
-.ej1 .card1{
-    width: 410px;
-    height: 730px;
+
+.ej1 .card1 {
+    width: 287px;
+    height: 511px;
     border-radius: 30px;
     color: black;
     background-color: white;
-    border-radius: 30px;
     margin: 0 auto;
     border: 2px solid rgb(0, 0, 0);
-    padding: 40px;
-    img{
-        width: 330px;
-        height: 319px;
-        border-radius: 30px;
-        
-    }
-    .datos_carga{
-        margin-bottom: 23px;
-        .carga{
-            font-size: 60px;
-            font-weight:bolder;
-            color:#6D25B9;
-            text-align: center;
-            margin-bottom: 8px;
-        }
-        .gigas{
-            font-size: 18px;
-            color: grey;
-            text-align: center;
-        }
-        
-    }
-    .lista_archivos{
-        font-size: 22px;
-        color: black;
-        list-style: none;
-        text-align: center;
-        margin-bottom: 40px;
-        li{
-            margin-bottom: 3px;
-        }
-
-    }
-    button{
-        height: 53px;
-        width: 131px;
-        border-radius: 20px;
-        color:  white;
-        background-color: #6D25B9;
-        font-weight: bolder;
-        font-size: 18px;
-        margin-left:30%;
-        border: 0px;
-        
-    }
-    
-
+    padding: 28px;
 }
-.ej2 .card2{
-    width: 609px;
-    height: 1048px;
+
+.ej1 .card1 img {
+    width: 231px;
+    height: 223px;
+    border-radius: 30px;
+}
+
+.ej1 .card1 .datos_carga {
+    margin-bottom: 16px;
+}
+
+.ej1 .card1 .datos_carga .carga {
+    font-size: 42px;
+    font-weight: bolder;
+    color: #6D25B9;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.ej1 .card1 .datos_carga .gigas {
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+}
+
+.ej1 .card1 .lista_archivos {
+    font-size: 15px;
+    color: black;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.ej1 .card1 .lista_archivos li {
+    margin-bottom: 2px;
+}
+
+.ej1 .card1 button {
+    height: 37px;
+    width: 92px;
+    border-radius: 20px;
+    color: white;
+    background-color: #6D25B9;
+    font-weight: bolder;
+    font-size: 13px;
     margin: 0 auto;
-    padding: 80px;
-    border: 1px solid black;
-    
-    .imagen{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 449px;
-        height:412px;
-        margin-bottom: 50px;
-        img{
-            width: 317px;
-            height:344px;
-            
-        }  
-        
-    } 
-    .info{
-        margin-bottom: 50px;
-        padding-bottom: 53px;
-        h2{
-            font-size: 32px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 17px;
-        }
-        p{
-            font-size: 22px;
-            font-weight: lighter;
-            color:rgba(162, 169, 173, 1);
-            text-align: justify;
-            margin-bottom: 17px;
-        }
-    }
-    
-    .b2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        button{
-            width: 362px;
-            height: 80px;
-            border-radius: 43px;
-            color: white;
-            background-color: rgba(242, 177, 74, 1);
-            font-size: 28px;
-            font-weight: bold;
-            border: 0px;
-        }
-    }
+    display: block;
+    border: 0;
 }
-.ej3{
+/*--------------------------------------------------------------------------ej2---------------------------------------------*/
+.ej2 {
+    height: 100%;
+    padding: 30px;
+}
+
+.ej2 .card2 {
+    width: 429px;
+    height: 755px;
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 105px 52px 0 52px;
+}
+
+.ej2 .card2 img {
+    display: block;
+    margin: 0 auto;
+    width: 231px;
+    height: 223px;
+    border-radius: 100%;
+}
+
+.ej2 .card2 .datos {
+    width: 312px;
+    padding: 34px 0 105px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ej2 .card2 .datos h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.ej2 .card2 .datos p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.ej2 .card2 > button {
+    padding: 17px 70px;
+    border-radius: 46px;
+    border: 0;
+    background-color: #F2B14A;
+    display: block;
+    margin: 0 auto;
+    font-size: 17px;
+    color: white;
+}
+
+.card2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+
+.card2 ul li {
+    margin-right: 7px;
+}
+
+.card2 ul li button {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: darkgrey;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.card2 ul li .color {
+    background: gray;
+}
+/*-----------------------------------------------------------------------------------ej3------------------------------------------------------------------------------*/
+
+.ej3 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 60px;
-    .contenedor{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 488px;
-        height: 526px;
-        background-color: rgba(164, 71, 110, 1);
-        .card3{
-            width: 408px;
-            height: 470px;
-            margin: auto;
-            background-color: white;
-            .imagen{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 30px;
-                img{
-                    width: 250px;
-                    height: 250px;
-                }
-            }
-            .info{
-                h2{
-                    font-size:20px ;
-                    color: rgb(83, 83, 83);
-                    text-align: center;
-                    font-weight: lighter;
-                    margin-bottom: 5px;
-                }
-                p{
-                    margin: auto;
-                    width: 330px;
-                    color: rgb(156, 156, 156);
-                    text-align: center;
-                    font-weight: lighter;
-                    margin-bottom: 55px;
-
-                }
-            } 
-            .b2{
-                
-                button{
-                    background-color: rgba(238, 104, 161, 1);
-                    color: white;
-                    width: 408px;
-                    height: 55px;
-                    border: 0px;
-                    font-size: 22px;
-
-
-                
-                }
-            }
-
-        }
-    }
 }
-.ej4{
+
+.ej3 .contenedor {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
-    .card4{
-        width: 1858px;
-        height: 1160px;
-        border: 32px solid black;
-        .arb{
-            height: 548px;
-            width: 1794px;
-            display: inline-block;
-            margin-bottom: 50px;
-        }
-        .abajo{
-            display: inline;
-            height: 548px;
-            width: 1794px;
-            img{
-                width: 548px;
-                float: left;
-            }
-            h1{
-                font-size: 450px;
-                float: right;
-            }
-            
-        }
-    }
+    width: 488px;
+    height: 526px;
+    background-color: rgba(164, 71, 110, 1);
 }
 
+.ej3 .contenedor .card3 {
+    width: 408px;
+    height: 470px;
+    margin: auto;
+    background-color: white;
+}
 
+.ej3 .contenedor .card3 .imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
+.ej3 .contenedor .card3 .imagen img {
+    width: 250px;
+    height: 250px;
+}
+
+.ej3 .contenedor .card3 .info h2 {
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.ej3 .contenedor .card3 .info p {
+    margin: auto;
+    width: 330px;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 55px;
+}
+
+.ej3 .contenedor .card3 .b2 button {
+    background-color: rgba(238, 104, 161, 1);
+    color: white;
+    width: 408px;
+    height: 55px;
+    border: 0;
+    font-size: 22px;
+}
+/*--------------------------------------------------ej4---------------------------*/
+.ej4 {
+    height: 100%;
+    padding: 30px;
+}
+
+.ej4 .card4 {
+    display: flex;
+    width: 845px;
+    height: auto;
+    padding: 11px 18px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 15px solid #000;
+}
+
+.ej4 .card4 .hd {
+    display: flex;
+    padding-bottom: 164px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ej4 .card4 .hd p {
+    width: 28px;
+    height: 11px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ej4 .card4 .hd h2 {
+    width: 171px;
+    font-size: 8px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ej4 .card4 .contenido4 {
+    width: 776px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.ej4 .card4 .contenido4 .text4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ej4 .card4 .contenido4 .text4 p {
+    font-size: 7px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ej4 .card4 .contenido4 .imag4 {
+    display: flex;
+    height: 266px;
+    justify-content: center;
+    align-items: center;
+    gap: -9px;
+    align-self: stretch;
+}
+
+.ej4 .card4 .contenido4 .imag4 img {
+    height: 260px;
+    width: 261px;
+}
+
+.ej4 .card4 .contenido4 .imag4 h1 {
+    color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 370px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -16px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+/*------------------------------------------------------ej5-------------------------------*/
+.ejercicio5 {
+    height: 100%;
+    padding: 30px;
+}
+
+.ejercicio5 .card5 {
+    width: 581px;
+    height: auto;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000;
+}
+
+.ejercicio5 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-bottom: 50px;
+}
+.ejercicio5 header button{
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid #000;
+    background: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.ejercicio5 header .perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ejercicio5 header .perfil h2{
+    font-size: 15px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+.ejercicio5 .contenido_card5{
+    padding: 20px 0;
+}
+.ejercicio5 .contenido_card5 h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.ejercicio5 .contenido_card5 h2 {
+    font-size: 18px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+.ejercicio5 .contenido_card5 h3 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.board{
+    display: flex;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.board img{
+    height: 240px;
+}
+.board h2{
+    font-weight: lighter;
+}
+.newboard{
+    margin-right: 100px;
+}
+.inferior{
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.inferior img{
+    height: 240px;
+}
+.inferior h2{
+    font-weight: lighter;
+}
+.smoot{
+    margin-right: 110px;
+}
